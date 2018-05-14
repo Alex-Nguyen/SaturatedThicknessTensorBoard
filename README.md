@@ -58,7 +58,7 @@ Start python 3
 Validate our example again
 ![vinh.nguyen@ttu.edu](/figures/Run_first_example.png)
 
-Running TensorBoard is similar to the previous step
+Running TensorBoard is similar to the previous step. Open Terminal and issue the following command:
 ```
 $tensorboard --logdir logpath
 ```
