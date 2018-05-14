@@ -43,6 +43,22 @@ $ conda create -n tensorflow pip python=3.6.4 //Check your python version by typ
 $ source activate tensorflow //Activate the conda environment 
 $ pip3 install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.8.0-py3-none-any.whl // install TensorFlow inside your conda environment:
 ```
+Open Anaconda Navigator -> Environment to check if everything is installed correctly
+
+![vinh.nguyen@ttu.edu](/figures/Anaconda_Environment.png)
+
+Then start the Jupyter notebook. Remember to select the "Applications on" as tensorflow rather than base (root)
+
+![vinh.nguyen@ttu.edu](/figures/Run_Jupyter.png)
+
+Start python 3
+
+![vinh.nguyen@ttu.edu](/figures/Jupyter_Python3.png)
+
+Validate our example again
+![vinh.nguyen@ttu.edu](/figures/Run_first_example.png)
+
+
 ## Authors
 
 * **Vinh The Nguyen** - *PhD Student* - Computer Science Department, Texas Tech University
