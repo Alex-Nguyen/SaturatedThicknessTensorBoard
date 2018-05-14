@@ -5,9 +5,11 @@ Water plays a critical role in our living and manufacturing activities. The cont
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 ### Prerequisites
-
+In this documentation, we demonstrate how to run TensorFlow and TensorBoard on MacOS, but it supposes to work on both Windows and Ubuntu.
+* **python3 and pip3** 
+First, install TensorFlow
 ```
-Give examples
+$pip3 install tensorflow
 ```
 
 ## Authors
@@ -15,3 +17,5 @@ Give examples
 * **Vinh The Nguyen** - *PhD Student* - Computer Science Department, Texas Tech University
 * **Fang Jin** - *Faculty* - Computer Science Department,Texas Tech University
 * **Tommy Dang** - *Faculty - Advisor* - Computer Science Department,Texas Tech University
+## Acknowledgments
+This work was partially supported by the U.S. National Science Foundation under Grant CNS-1737634
