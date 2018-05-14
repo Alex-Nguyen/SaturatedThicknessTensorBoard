@@ -28,8 +28,11 @@ After you hit Enter, operations are written to the event file in the logpath fol
 ```
 $tensorboard --logdir logpath
 ```
-It gives the result: TensorBoard 1.8.0 at http://Vinhs-MacBook-Air.local:6006 (Press CTRL+C to quit).....pay attention to the last four digits only: the port number 6006
+It gives the result: TensorBoard 1.8.0 at http://Vinhs-MacBook-Air.local:6006 (Press CTRL+C to quit).....pay attention to the last four digits only: the port number 6006.
+
 Then open any web browser and type: localhost:6006 on the address bar.
+
+![GitHub Logo](figures/First_Demo.png)
 ## Authors
 
 * **Vinh The Nguyen** - *PhD Student* - Computer Science Department, Texas Tech University
