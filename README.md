@@ -25,7 +25,10 @@ $python3
 >>>writerlog.close()
 >>>
 ```
-
+After you hit Enter, operations are written to the event file in the logpath folder. Now we can go to TensorBoard by typing the followig command
+```
+$tensorboard --logdir ="./logpath"
+```
 ## Authors
 
 * **Vinh The Nguyen** - *PhD Student* - Computer Science Department, Texas Tech University
