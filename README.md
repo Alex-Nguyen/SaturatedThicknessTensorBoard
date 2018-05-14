@@ -32,7 +32,7 @@ It gives the result: TensorBoard 1.8.0 at http://Vinhs-MacBook-Air.local:6006 (P
 
 Then open any web browser and type: localhost:6006 on the address bar.
 
-![GitHub Logo](figures/First_Demo.png)
+![GitHub Logo](/figures/First_demo.png)
 ## Authors
 
 * **Vinh The Nguyen** - *PhD Student* - Computer Science Department, Texas Tech University
