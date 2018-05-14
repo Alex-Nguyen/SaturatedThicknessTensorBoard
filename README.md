@@ -30,9 +30,9 @@ $tensorboard --logdir logpath
 ```
 It gives the result: TensorBoard 1.8.0 at http://Vinhs-MacBook-Air.local:6006 (Press CTRL+C to quit).....pay attention to the last four digits only: the port number 6006.
 
-Then open any web browser and type: localhost:6006 on the address bar.
+Then open any web browser and type: localhost:6006 on the address bar. If you find this graph below then congratulations !
 
-![GitHub Logo](/figures/First_demo.png)
+![vinh.nguyen@ttu.edu](/figures/First_demo.png)
 ## Authors
 
 * **Vinh The Nguyen** - *PhD Student* - Computer Science Department, Texas Tech University
