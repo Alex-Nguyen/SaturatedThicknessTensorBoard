@@ -155,7 +155,7 @@ model.compile(loss='mae', optimizer='adam')
 
 ### Create log event file for TensorBoard Visualization
 ```
-tensorboard = TensorBoard(log_dir="logs/%s"%datasetname)
+tensorboard = TensorBoard(log_dir="logs/%s"%datasetname) //In our case, the log file is saved in logs/Swisher
 ```
 ### Training the model
 ```
@@ -193,7 +193,17 @@ pyplot.xlabel('Month')
 pyplot.ylabel('Saturated Thickness')
 pyplot.show()
 ```
+After this step we've finished training the LSTM model, evaluate the model based on RMSE value. Next, we're going to use TensorBoard to visualize our configuration model. Open terminal and navigate to the log directory to activate TensorBoard
+```
+$tensorboard --logdir Swisher
+```
+Open web browswer and type on the address bar: localhost:6006 we have the following results
 
+First Tab (SCALAR)
+![vinh.nguyen@ttu.edu](/figures/TensorBoard_FirstTab.png)
+
+Second Tab (GRAPH)
+![vinh.nguyen@ttu.edu](/figures/TensorBoard_SecondTab.png)
 ## Authors
 
 * **Vinh The Nguyen** - *PhD Student* - Computer Science Department, Texas Tech University
