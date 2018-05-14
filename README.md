@@ -63,7 +63,7 @@ Running TensorBoard is similar to the previous step. Open Terminal and issue the
 $tensorboard --logdir logpath
 ```
 ### Install dependencies for Jupyter notebook
-Please following the instructions below to install all required libraries in our demonstration. Open the Terminal from Anaconda Environment >> Open with Terminal
+Please follow the instructions below to install all required libraries in our demonstration. Open the Terminal from Anaconda Environment >> Open with Terminal
 ![vinh.nguyen@ttu.edu](/figures/Dependency.png)
 
 and type the following commands:
