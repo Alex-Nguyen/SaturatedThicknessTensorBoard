@@ -7,6 +7,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 In this documentation, we demonstrate how to run TensorFlow and TensorBoard on MacOS, but it supposes to work on both Windows and Ubuntu.
 * **python3 and pip3** 
+
 First, install TensorFlow
 ```
 $pip3 install tensorflow
