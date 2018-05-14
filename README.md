@@ -20,7 +20,7 @@ $python3
 >>>b = tf.constant(6)
 >>>sum = tf.add(a,b)
 >>>with tf.Session() as sess:
-...   writerlog = tf.summary.FileWrite('./logpath', sess.graph)
+...   writerlog = tf.summary.FileWriter('./logpath', sess.graph)
 ...   print(sess.run(sum))
 >>>
 ```
@@ -33,6 +33,16 @@ It gives the result: TensorBoard 1.8.0 at http://Vinhs-MacBook-Air.local:6006 (P
 Then open any web browser and type: localhost:6006 on the address bar. If you find this graph below then congratulations !
 
 ![vinh.nguyen@ttu.edu](/figures/First_demo.png)
+
+The approach above is straightforward but the main drawback is that it's difficult to maintain and debug the code. Our suggestion is to use Jupyter notebook in [Anaconda](https://anaconda.org/). Please download and install the version for python 3.x
+
+Open Terminal to create tensorflow for Anaconda environment first
+
+```
+$ conda create -n tensorflow pip python=3.6.4 //Check your python version by typing $python3 -v
+$ source activate tensorflow //Activate the conda environment 
+$ pip3 install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.8.0-py3-none-any.whl // install TensorFlow inside your conda environment:
+```
 ## Authors
 
 * **Vinh The Nguyen** - *PhD Student* - Computer Science Department, Texas Tech University
