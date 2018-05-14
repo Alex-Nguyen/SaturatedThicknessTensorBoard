@@ -8,9 +8,22 @@ These instructions will get you a copy of the project up and running on your loc
 In this documentation, we demonstrate how to run TensorFlow and TensorBoard on MacOS, but it supposes to work on both Windows and Ubuntu.
 * **python3 and pip3** 
 
-First, install TensorFlow
+First, install TensorFlow from Terminal
 ```
 $pip3 install tensorflow
+```
+Second, to make sure that TensorFlow and TensorBoard are successfully installed on your local machine. Test them with the following codes in the Terminal command.
+```
+$python3
+>>>import tensorflow as tf
+>>>a = tf.constant(3)
+>>>b = tf.constant(6)
+>>>sum = tf.add(a,b)
+>>>with tf.Session() as sess:
+>>>   writerlog = tf.summary.FileWrite('./logpath', sess.graph)
+>>>   print(sess.run(sum))
+>>>writerlog.close()
+>>>
 ```
 
 ## Authors
