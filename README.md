@@ -58,7 +58,10 @@ Start python 3
 Validate our example again
 ![vinh.nguyen@ttu.edu](/figures/Run_first_example.png)
 
-
+Running TensorBoard is similar to the previous step
+```
+$tensorboard --logdir logpath
+```
 ## Authors
 
 * **Vinh The Nguyen** - *PhD Student* - Computer Science Department, Texas Tech University
