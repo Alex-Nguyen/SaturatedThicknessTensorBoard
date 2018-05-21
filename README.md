@@ -77,6 +77,7 @@ and type the following commands:
 (tensorflow) bash-3.2$ conda install keras
 (tensorflow) bash-3.2$ conda install matplotlib 
 ```
+[![Install Anaconda, TensorFlow and Keras](https://www.youtube.com/upload_thumbnail?v=GIN6J0pme40&t=hqdefault&ts=1526937572376)](https://youtu.be/GIN6J0pme40 "Install Anaconda, TensorFlow and Keras")
 ## Application
 ### Import required libraries
 ```
