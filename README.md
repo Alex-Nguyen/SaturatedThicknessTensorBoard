@@ -43,7 +43,10 @@ $ conda create -n tensorflow pip python=3.6.4 //Check your python version by typ
 $ source activate tensorflow //Activate the conda environment 
 $ pip3 install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/mac/cpu/tensorflow-1.8.0-py3-none-any.whl // install TensorFlow inside your conda environment:
 ```
-Open Anaconda Navigator -> Environment to check if everything is installed correctly
+Open Anaconda Navigator -> Environment to check if everything is installed correctly. If you cannot find tensorflow. From your environment, click on the right arrow and open with Terminal then type the following command
+```
+conda install -c conda-forge tensorflow 
+```
 
 ![vinh.nguyen@ttu.edu](/figures/Anaconda_Environment.png)
 
