@@ -78,6 +78,8 @@ and type the following commands:
 (tensorflow) bash-3.2$ conda install matplotlib 
 ```
 [![Install Anaconda, TensorFlow and Keras](/figures/InstallTensorFlow.png)](https://youtu.be/GIN6J0pme40 "Install Anaconda, TensorFlow and Keras")
+[![Reading TensorGraph](/figures/InstallTensorGraph.png)](https://youtu.be/mVENKch4xEc "Reading TensorGraph")
+
 ## Application
 ### Import required libraries
 ```
